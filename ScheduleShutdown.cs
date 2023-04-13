@@ -62,6 +62,8 @@ namespace ScheduleShutdown
         {
             try
             {
+                textBox1.Text = string.Empty;
+                textBox2.Text = string.Empty;
                 System.Diagnostics.Process process = new System.Diagnostics.Process();
                 System.Diagnostics.ProcessStartInfo startInfo = new System.Diagnostics.ProcessStartInfo();
                 startInfo.WindowStyle = System.Diagnostics.ProcessWindowStyle.Hidden;
